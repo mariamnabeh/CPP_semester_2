@@ -17,14 +17,20 @@ typedef long double ld;
 int main()
 {
 FIO
-ll t;
+	cout << "Enter the number: ";
+	int y;
+	
+	y += 5;
+	cout << y << el;
 
+	y = -2;
+	cout << y << el;
 
+	y *= 3;
+	cout << y << el;
 
+	y /= 2;
+	cout << y << el;
 
-
-
-
-
-
+	return 0;
 }
