@@ -18,21 +18,21 @@ int main()
 {
 FIO
 	cout << "Enter the number: ";
-    
-	int y;
-    cin>>y;
-	
+
+	double y;
+	if (!(cin >> y)) return 0;
+
 	y += 5;
-	cout << y << el;
+	cout << y << " (int: " << static_cast<int>(y) << ")" << el;
 
 	y = -2;
-	cout << y << el;
+	cout << y << " (int: " << static_cast<int>(y) << ")" << el;
 
 	y *= 3;
-	cout << y << el;
+	cout << y << " (int: " << static_cast<int>(y) << ")" << el;
 
 	y /= 2;
-	cout << y << el;
+	cout << y << " (int: " << static_cast<int>(y) << ")" << el;
 
 	return 0;
 }

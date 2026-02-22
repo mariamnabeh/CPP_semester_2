@@ -16,11 +16,11 @@ typedef long double ld;
 
 int main()
 {
-FIO
-double n;
-ll i;
-cout<< i+n;
-cout<<float(i+n);
+double n,i,s;
+cin>>i>>n;
+s=i+n;
+cout<< s<<el;
+cout<<(int)s<<el;
 
 
 
