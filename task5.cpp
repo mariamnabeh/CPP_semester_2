@@ -18,7 +18,9 @@ int main()
 {
 FIO
 	cout << "Enter the number: ";
+    
 	int y;
+    cin>>y;
 	
 	y += 5;
 	cout << y << el;

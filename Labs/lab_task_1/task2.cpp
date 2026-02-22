@@ -16,9 +16,8 @@ typedef long double ld;
 
 int main()
 {
-FIO
+cout<<"Enter you frist and last name please\n";
 string F_name , l_name;
-cout<<"Enter you frist and last nae please\n";
 cin>> F_name >>l_name;
 cout<< F_name + l_name;
 

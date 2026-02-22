@@ -16,10 +16,11 @@ typedef long double ld;
 
 int main()
 {
-FIO
-ll age ;
 cout<<"inter your age ";
-if (age<=18&&age <60){
+ll age ;
+cin>> age;
+
+if (age>=18&&age <60){
 cout<<"Allwed";
 
 }
