@@ -16,9 +16,31 @@ typedef long double ld;
 
 int main()
 {
-int arr[3]={1,3,4};
-cout<<arr[0];
+ld area,l,w;
+cout<<"INter the length and the width";
+cin>>l>>w;
+area=(l*w);
+cout<<area;
+/*
+tarcing
+int a=7;
+int b=3;
+1)=2
+2)=1
+*/
+
+  //  jana
 
 
+
+  /*
+ //int arr[3]={1,3,4};
+//cout<<arr[0];// making array
+// tarnary operator: condition? expression1: 
+
+//cout<<i++; =>
+//cout<<++i; => 
+  
+  */
 
 }
