@@ -10,7 +10,8 @@ int main(){
     int num;
     cout<<"Inter num" <<el;
     cin>>num;
-    for (int x=1; x<=num;x++){
+    int x=1; //modification
+    for (; x<=num;x++){
         res*=x;
     }
 cout<<"factorial("  <<num<< ") =" <<res<<el;
